@@ -3,28 +3,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>BRK Music</title>
-  <style>
-    body { background: #0d0d0d; color: #fff; font-family: Arial; padding: 20px; text-align: center; }
-    a { color: #00ffcc; text-decoration: none; }
-    iframe { margin-top: 20px; width: 90%; max-width: 560px; height: 315px; border: none; }
-    header, footer { padding: 20px; background: #111; }
-  </style>
+  <title>Contact BRK</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <a href="index.html">← Back to Home</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="music.html">Music</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </header>
 
-  <h1>Listen to My Music</h1>
-  <p>Catch the latest drops, freestyles, or studio sessions here.</p>
+  <main>
+    <h1>Contact BRK</h1>
+    <p>Reach out for bookings, beats, or collaborations.</p>
 
-  <!-- Replace VIDEO_ID with your YouTube embed video ID -->
-  <iframe src="https://www.youtube.com/embed/VIDEO_ID
-- YouTube
-and share it all with friends, family, and the world on YouTube.
-www.youtube.com
-" allowfullscreen></iframe>
+    <form action="mailto:youremail@example.com" method="POST" enctype="text/plain">
+      <input type="text" name="name" placeholder=Darryl Jenningsrequired><br>
+      <input type="email" name="email" placeholder=jenningsdarryl48@gmail.com required><br>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea><br>
+      <input type="submit" value="Send Message">
+    </form>
+  </main>
 
   <footer>
     &copy; 2025 BRK. All rights reserved.
